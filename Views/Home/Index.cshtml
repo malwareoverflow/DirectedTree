@@ -24,6 +24,8 @@ var networkSeries = chart.series.push(new am4plugins_forceDirected.ForceDirected
 
 chart.data = [@Html.Raw(ViewBag.json)];
 
+
+
 networkSeries.dataFields.value = "value";
 networkSeries.dataFields.name = "name";
 networkSeries.dataFields.children = "children";
